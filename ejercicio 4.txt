@@ -1,0 +1,26 @@
+algoritmo ejercicio_4
+	Definir n Como Caracter;
+	definir e,i Como Entero;
+
+	i=1;
+
+	Mientras (i<=20) Hacer
+		
+		i=i+1;
+		Escribir i ")ingrese su nombre: ";
+		leer n;
+		Escribir i ")ingrese su edad: ";
+		Leer  e;
+		Borrar Pantalla;
+		Si (i>e) Entonces
+			Escribir "es el mayor;" i;
+		Fin Si
+		Si (i<e) Entonces
+			Escribir "es el menor;" i;
+		Fin Si
+		
+
+	Fin Mientras
+
+FinAlgoritmo
+	
